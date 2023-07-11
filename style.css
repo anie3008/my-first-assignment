@@ -1,6 +1,9 @@
 *{margin: 0px;
 padding: 0px;}
+body {
+font-family: lato;
 
+}
 .container {
     display: flex;
     justify-content: space-around;
@@ -180,7 +183,9 @@ text-align: center;
 display: flex;
 justify-content: center;
 align-content: center;
+padding-left: 5px;
 }
+
 
 .deals-container{
     height: 55vh;
