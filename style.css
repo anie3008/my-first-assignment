@@ -1,0 +1,232 @@
+*{margin: 0px;
+padding: 0px;}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+   
+background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header-image{
+    width: 630px;
+    height: 800px;
+}
+
+.title{
+  border: 30px;  
+padding: 25px;
+text-align: left;
+margin-top: 115px;
+}
+.header-title{
+font-size: 80px;
+font-weight: 800;
+padding: 25px;
+}
+
+.title-description{
+font-size: 18px;
+font-weight: 400;
+color: rgba(39, 39, 39, 0.60);
+border-top: 35px;
+padding: 25px;
+}
+.button{
+    padding: 35px;
+
+}
+.primary-button{
+background-color: #E55473;
+color: white;
+border-radius: 5px;
+padding: 20px 40px;
+font-size: 20px;
+font-weight: 700;
+border: none;
+
+}
+
+.featured-flower{
+    height: 100vh;
+    border-top: 55px;
+    padding-top: 115px;
+}
+.feat-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.title-description{
+   text-align: center;
+   font-size: 25px;
+   font-weight: 400;
+   line-height: 20px;
+}
+.flower-box{
+    display: flex;
+    left: 350px;
+    
+}
+.pink{
+    width: 460px;
+    height: 540px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    
+}
+
+.pink-flower{
+    width: 310px;
+    height: 430px;
+padding: 115px;
+
+
+
+
+}
+.red{
+    width: 460px;
+    height: 540px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    position: relative;
+top: 100px;
+left: 320px;
+}
+
+.red-flower{
+    width: 310px;
+    height: 430px;
+    padding: 115px;
+    
+}
+
+.yellow{
+    width: 460px;
+    height: 540px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+position: relative;
+top: 100px;
+left: 340px;
+
+}
+.yellow-flower{
+    width: 310px;
+    height: 430px;
+    padding: 115px;
+}
+ .text1{  
+    font-size: 25px;     
+font-weight: 400;
+text-decoration: underline;
+text-align: center;
+bottom: 65px;
+
+}
+
+.offer-container{height: 60vh;
+margin: 25px 30px;
+background-color: rgba(229, 84, 115, 0.10);
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+
+}
+.offer-title{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 25px;
+}
+.off-color{
+    color: #E55473;
+}
+.offer-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    border-top: 35px;
+    padding: 25px;
+}
+
+.fb-text{
+    padding-top: 115px;
+    text-align: center;
+}
+
+.fb-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.fb-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    border-top: 35px;
+    padding: 25px;
+
+}
+
+.fb-images{
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.deals-container{
+    height: 55vh;
+   
+    background-image: url("./images/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin: auto;
+}
+
+.deals-text{
+    width: 100%;
+    height: 100%;
+display: flex;
+justify-content: center;    
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+
+.deals-title{
+
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+}
+.footer-container{
+    height: 30vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 115px;
+}
+
+.footer-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer-description{
+    font-size: 18px;
+    font-weight: 400;
+    color:  white;
+}
